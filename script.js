@@ -10,7 +10,7 @@ const clearChatHistoryButton = document.querySelector(".h");
 const notificationSound = new Audio("notification.mp3"); 
 const loadingAnimationDisplayedSound = new Audio("notification.wav"); 
 const UNSPLASH_ACCESS_KEY = "Cxqa_cB4mNydGAo5kvJ9fddOrPMQTZtM1pvqTX7srFQ";
-const openrouter_api_key = "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";
+const openrouter_api_key = "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";
 
 let chatHistory = JSON.parse(localStorage.getItem("chatHistory")) || [];
 
